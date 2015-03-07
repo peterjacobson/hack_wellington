@@ -1,8 +1,9 @@
+[link to wireframes](https://docs.google.com/drawings/d/1Onr8fjgdaPxTBBg5ROuAOkCRhAjTYO2PW86LLiHbDR4/edit)
 
 request: get '/api/issues'
 
-response: 
-issues: 
+response:
+issues:
 
 
 ```
@@ -21,8 +22,8 @@ issues:
     "comment_count" : <int>,
     "score" : <int>
   },
-  
+
   ...
-  
+
 ]
 ```
