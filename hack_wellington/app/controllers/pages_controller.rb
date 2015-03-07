@@ -4,7 +4,7 @@ require 'json'
 class PagesController < ApplicationController
 
   def index
-    response  = JSON.parse(HTTParty.get("#").parsed_response)
+    @issues  = JSON.parse(HTTParty.get("#/api/issues").parsed_response)
   end
 
 end
