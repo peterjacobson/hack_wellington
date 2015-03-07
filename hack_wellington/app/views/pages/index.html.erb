@@ -1,0 +1,18 @@
+<h1> ISSUES </h1>
+
+<ul>
+  <li>
+    <% @issues.each do |issue| %>
+      <p>
+        <%= issue.title %><br>
+        <%= issue.description %><br>
+        <%= issue.creator %><br>
+        <%= issue.creator %><br>
+        <%= issue.created_at %><br>
+        <%= issue.status %><br>
+        <%= issue.comment_count %><br>
+        <%= issue.score %><br>
+      </p>
+    <% end %>
+  </li>
+</ul>
