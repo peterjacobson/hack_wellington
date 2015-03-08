@@ -1,0 +1,18 @@
+@font-face {
+    font-family: defulat;
+    src: url('fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: titlefont;
+    src: url('fonts/PermanentMarker.ttf');
+}
+body {
+  width:100%;
+}
+header {
+
+}
+#wrapper {
+  width:100%;
+}
